@@ -52,4 +52,4 @@ COPY src/ .
 COPY imagenet_class_index.json .
 
 # Set the default command to python3
-CMD [ "python", "server.py" ]
+CMD [ "python3", "server.py" ]
