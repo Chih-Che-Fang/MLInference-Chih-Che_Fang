@@ -2,6 +2,10 @@ REM kill all docker process
 @ECHO OFF
 FOR /f "tokens=*" %%i IN ('docker ps -q') DO docker kill %%i
 
+REM build docker image
+docker build -t myimage .
+
+
 REM run docker image
 docker run -d -p 5000:5000 myimage
 
