@@ -1,7 +1,7 @@
 # MLInference-Chih-Che_Fang
 The source code is owned by me, I don't share this source with anyone  
 Please grade groupwork individually  
-Enviorment: Widnows
+Enviorment: Widnows + Python3.7
 
 # How to Run the Program  
 1.Change to the root directory of this project  
